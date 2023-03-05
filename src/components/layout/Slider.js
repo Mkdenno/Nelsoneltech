@@ -19,7 +19,7 @@ const Slider = () => {
     <div className="bg-cover h-50 sm:bg-cover">
     <Zoom scale={0.3}>
           {
-            images.map((each, index) => <img key={index} className="w-full max-w-full" src={each} />)
+            images.map((each, index) => <img key={index} className="sliderImg" style={{width:"100%", height:"100%"}}   src={each} />)
           }
         </Zoom>
     </div>
