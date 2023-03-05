@@ -24,15 +24,15 @@ const Home = () => {
       </section>
 
       <section>
-        <div className='lg:flex lg:justify-center lg:items-center sm:flex sm:justify-center'>
+        <div className='ml-5 mr-5 text-lg lg:flex lg:justify-center lg:items-center sm:flex sm:justify-center'>
         <h1 className='home-about-tect'>About NelsonelTech Solutions</h1>
           </div>
-                  <div className='lg:flex lg:justify-around flex-wrap'>
-                  <div className="lg:w-2/5 lg:ml-10 lg:h-full mb-5">
+                  <div className=' ml-5 mr-5 lg:flex lg:justify-around flex-wrap'>
+                  <div className="lg:w-2/5 lg:ml-20 lg:h-full mb-5">
                     <img src='https://nelsoneltech.s3.amazonaws.com/static/img/about/1.jpg' alt='AboutNelsonTech'/>
                   </div>
-                  <div className='lg:w-2/5 lg:mr-10'>
-                    <h1>NELSONELTECH SOLUTIONS</h1>
+                  <div className='lg:w-2/5 lg:mr-20'>
+                    <h1 className='home-about-techh1'>NELSONELTECH SOLUTIONS</h1>
                     <p>We are an Information Technology Company that provides wide 
                       range of solutions to help your business grow and be gain 
                       competitive edge in the market. We provide 
