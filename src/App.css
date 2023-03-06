@@ -28,9 +28,12 @@
 }
 .button{
   padding: 8px 24px;
-  background-color: #3EC1D1;
   border-radius: 20px;
   font-size: small;
+  border: 1px solid white;
+}
+.button:hover{
+  background-color: #3EC1D1;
 }
 
 .home-about-tect{
@@ -106,6 +109,23 @@ max-width: 100%;
   width: 100%;
   max-width: 100%;
   }
+  .lastSectionhome{
+    background-color: #3EC1D1;
+    height: 100px;
+    margin-top: 4rem;
+
+  }
+.btn{
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-size: small;
+  background-color: white;
+}
+.btn:hover{
+  background-color: #3EC1D1;
+}
+
+
 
 /* NAvBAr */
 

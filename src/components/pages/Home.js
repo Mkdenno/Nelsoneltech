@@ -150,12 +150,32 @@ const Home = () => {
             <div className='flex items-start flex-col ml-6 m-auto'>
             <h1 className='text-3xl mb-1'>WORKING WITH US</h1>
               <h5 className='working-withus-header mb-6'>WEB DESIGN, WEB HOSTING. YOUR ALL TIMES INFORMATION TECHNOLOGY SOLUTION PROVIDER.</h5>
-              <button className='button'>Contact Us</button>
+              <button className='button mb-5 '>Contact Us</button>
             </div>
 
           </div>
         </div>
 
+      </section>
+
+      <section>
+
+        <div>
+          <h1>What our customers say</h1>
+
+          
+        </div>
+      </section>
+
+
+      <section className='lastSectionhome'>
+
+       <div className=' flex justify-center items-center   lg:flex lg:justify-center lg:items-center flex-wrap'>
+        <div>
+          <h2 className='text-white lg:text-lg mt-8 lg:mr-52'>Welcome to our <strong className='text-black'>NelsonelTech</strong> Solutions</h2>
+        </div>
+        <button className='lg:mt-8 btn '>GET A QUOTE</button>
+       </div>
       </section>
 
     </div>
