@@ -140,6 +140,24 @@ const Home = () => {
         </div>
 
       </section>
+
+      <section className=''>
+        <div className=' lg:flex lg:justify-center'>
+          <div className='section4Img'>
+            <img src='https://nelsoneltech.s3.amazonaws.com/static/img/about/2.jpg' alt='homeIMG'/>
+          </div>
+          <div className='section4div2   bg-black text-white flex justify-start  flex-col '>
+            <div className='flex items-start flex-col ml-6 m-auto'>
+            <h1 className='text-3xl mb-1'>WORKING WITH US</h1>
+              <h5 className='working-withus-header mb-6'>WEB DESIGN, WEB HOSTING. YOUR ALL TIMES INFORMATION TECHNOLOGY SOLUTION PROVIDER.</h5>
+              <button className='button'>Contact Us</button>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
     </div>
   )
 }

@@ -94,6 +94,18 @@ font-weight: 700;
   margin: auto;
   margin-bottom: 1rem;
 }
+/* Home section4 */
+.home-section-4{
+  display: flex;
+}
+.section4Img img{
+width: 100%;
+max-width: 100%;
+}
+.section4div2 {
+  width: 100%;
+  max-width: 100%;
+  }
 
 /* NAvBAr */
 
