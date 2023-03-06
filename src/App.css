@@ -57,6 +57,9 @@
   max-width: 100%;
 }
 .servicesparagrap{
+  display:flex;
+  justify:center;
+  align-items:center;
   font-size: 14px;
 }
 .eachdivourservices img{
