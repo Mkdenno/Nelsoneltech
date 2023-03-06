@@ -22,7 +22,7 @@
   color: white;
   font-size: small;
 }
-.home-center-desc button{
+.button{
   padding: 8px 24px;
   background-color: #3EC1D1;
   border-radius: 20px;
@@ -55,12 +55,14 @@
 .eachdivourservices{
   width:300px;
   max-width: 100%;
+  margin-top: 1rem;
 }
 .servicesparagrap{
-  display:flex;
-  justify:center;
-  align-items:center;
+  text-align: center;
   font-size: 14px;
+  height: 200px;
+  
+  margin-top:1rem ;
 }
 .eachdivourservices img{
   background-size: cover;
@@ -70,9 +72,22 @@
 .eachdivourservices h1{
 font-size: 20px;
 font-family: 'Raleway',sans-serif;
-margin: 1rem;
+margin-top: 0.5rem;
 color: #444444;
 font-weight: 700;
+}
+.servicesbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+  background:#0D6EFD;
+  font-size: 17px;
+  font-family: 'Open', sans-serif;
+  color: #FFFFFF;
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 /* NAvBAr */
