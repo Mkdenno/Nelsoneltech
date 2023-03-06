@@ -8,12 +8,12 @@ const Home = () => {
         <div className='home-slider'>
 
         <Slider/>
-        <div className='home-center  lg:text-3xl lg:mt-20 lg:left-64 xl:left-72 xl:mt-30 2xl:mt-36 2xl:left-84'>
+        <div className='home-center  lg:text-3xl top-3 lg:left-72 xl:left-72 xl:mt-30 2xl:mt-36 2xl:left-84'>
           <div className='home-center-desc'>
-          <h1 className=" lg:mt-10 lg:text-3xl">NelsonelTech Solutions</h1>
+          <h1 className=" lg:mt-14 lg:text-4xl ">NelsonelTech Solutions</h1>
            
-           <p className='lg:text-lg'>Your All times Information Technology provider</p>
-           <button className='button'>Get Started</button>
+           <p className='text-bold sm:text-small lg:left-4 lg:text-lg'>Your All times Information Technology provider</p>
+           <button className='button text-white lg:mt-4'>Get Started</button>
           </div>
 
           </div>

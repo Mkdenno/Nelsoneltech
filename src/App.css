@@ -4,9 +4,11 @@
 }
 .home-center{
   position: absolute;
-  top:0;
+  max-width: 100%;
+  /* top:15%; */
   z-index: 10;
 }
+
 .home-center-desc{
   display: flex;
   justify-content: center;
@@ -17,15 +19,18 @@
 }
 .home-center-desc h1{
   color: #3EC1D1;
+  font-weight: 900;
 }
 .home-center-desc p{
   color: white;
   font-size: small;
+  font-weight: 900;
 }
 .button{
   padding: 8px 24px;
   background-color: #3EC1D1;
   border-radius: 20px;
+  font-size: small;
 }
 
 .home-about-tect{
