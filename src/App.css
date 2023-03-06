@@ -46,6 +46,32 @@
   background-color: #F9F9F9;
 }
 
+/* home section3 */
+
+.home-about-tect{
+  font-size: 30px;
+  color: #444444;
+}
+.eachdivourservices{
+  width:300px;
+  max-width: 100%;
+}
+.servicesparagrap{
+  font-size: 14px;
+}
+.eachdivourservices img{
+  background-size: cover;
+  height:200px;
+  max-width: 100%;
+}
+.eachdivourservices h1{
+font-size: 20px;
+font-family: 'Raleway',sans-serif;
+margin: 1rem;
+color: #444444;
+font-weight: 700;
+}
+
 /* NAvBAr */
 
 .navbar-container{

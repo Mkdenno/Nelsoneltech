@@ -47,6 +47,101 @@ const Home = () => {
                   </div>
                   </div>
       </section>
+
+
+      {/* our services */}
+
+      <section className=' m-10'>
+        <div className='ml-5 mr-5 text-lg lg:flex lg:justify-center lg:items-center sm:flex sm:justify-center'>
+        <h1 className='home-about-tect'>Our Services</h1>
+        </div>
+        <div className='flex justify-around flex-wrap'>
+        <div className='eachdivourservices'>
+          <img src='https://nelsoneltech.s3.amazonaws.com/static/static/image/custom.png' alt="Custom software solutions"/>
+          <h1>Custom software solutions</h1>
+          <p className='servicesparagrap'>At NelsonelTech Solutions, we offer custom software solutions 
+            as a service to help businesses streamline their operations and improve productivity. 
+            Our team of experienced developers will work closely with you to understand your unique needs …</p>
+
+            <button>Read More</button>
+        </div>
+        <div className='eachdivourservices'>
+        <img src='https://nelsoneltech.s3.amazonaws.com/static/static/image/maintenance.png' alt="Support and maintenance"/>
+          <h1>Support and maintenance</h1>
+          <p className='servicesparagrap'>At NelsonelTech Solutions, we offer comprehensive support and maintenance 
+            services to ensure that your technology systems are running smoothly and efficiently.
+             Our team of experienced and certified technicians will provide timely and effective support for …</p>
+
+            <button>Read More</button>
+        </div>
+        <div className='eachdivourservices'>
+        <img src='https://nelsoneltech.s3.amazonaws.com/static/static/image/download.png' alt="Website Development"/>
+          <h1>Website Development</h1>
+          <p className='servicesparagrap'>NelsonelTech Solutions offers professional website design and development services for
+             businesses and organizations looking to establish a strong online presence.
+             Our team of expert designers and developers are
+              dedicated to creating unique and user-friendly websites …</p>
+
+            <button>Read More</button>
+        </div>
+
+        <div className='eachdivourservices'>
+        <img src='https://nelsoneltech.s3.amazonaws.com/static/static/image/download.png' alt="Website Development"/>
+          <h1>Website Development</h1>
+          <p className='servicesparagrap'>NelsonelTech Solutions offers professional website design and development services for
+             businesses and organizations looking to establish a strong online presence.
+             Our team of expert designers and developers are
+              dedicated to creating unique and user-friendly websites …</p>
+
+            <button>Read More</button>
+        </div>
+
+        <div className='eachdivourservices'>
+        <img src='https://nelsoneltech.s3.amazonaws.com/static/static/image/download.png' alt="Website Development"/>
+          <h1>Website Development</h1>
+          <p className='servicesparagrap'>NelsonelTech Solutions offers professional website design and development services for
+             businesses and organizations looking to establish a strong online presence.
+             Our team of expert designers and developers are
+              dedicated to creating unique and user-friendly websites …</p>
+
+            <button>Read More</button>
+        </div>
+
+        <div className='eachdivourservices'>
+        <img src='https://nelsoneltech.s3.amazonaws.com/static/static/image/download.png' alt="Website Development"/>
+          <h1>Website Development</h1>
+          <p className='servicesparagrap'>NelsonelTech Solutions offers professional website design and development services for
+             businesses and organizations looking to establish a strong online presence.
+             Our team of expert designers and developers are
+              dedicated to creating unique and user-friendly websites …</p>
+
+            <button>Read More</button>
+        </div>
+
+        <div className='eachdivourservices'>
+        <img src='https://nelsoneltech.s3.amazonaws.com/static/static/image/download.png' alt="Website Development"/>
+          <h1>Website Development</h1>
+          <p className='servicesparagrap'>NelsonelTech Solutions offers professional website design and development services for
+             businesses and organizations looking to establish a strong online presence.
+             Our team of expert designers and developers are
+              dedicated to creating unique and user-friendly websites …</p>
+
+            <button>Read More</button>
+        </div>
+
+        <div className='eachdivourservices'>
+        <img src='https://nelsoneltech.s3.amazonaws.com/static/static/image/download.png' alt="Website Development"/>
+          <h1>Website Development</h1>
+          <p className='servicesparagrap'>NelsonelTech Solutions offers professional website design and development services for
+             businesses and organizations looking to establish a strong online presence.
+             Our team of expert designers and developers are
+              dedicated to creating unique and user-friendly websites …</p>
+
+            <button>Read More</button>
+        </div>
+        </div>
+
+      </section>
     </div>
   )
 }
