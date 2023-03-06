@@ -1,13 +1,15 @@
 /* Homeee */
 .home-slider{
   position: relative;
-  z-index: 2;
+  z-index: 1;
 
 }
 .home-center{
   position: absolute;
   max-width: 100%;
   /* top:15%; */
+  z-index: 2;
+
 }
 
 .home-center-desc{
