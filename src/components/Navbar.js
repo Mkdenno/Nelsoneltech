@@ -1,13 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 
-
-
-
 const Navbar = () => {
-
+  const [nav, setNav] = useState(false);
+  const links = [
+    {
+      id: 1,
+      link: "home",
+    },
+    {
+      id: 2,
+      link: "about",
+    },
+    {
+      id: 3,
+      link: "services",
+    },
+    {
+      id: 3,
+      link: "portfolio",
+    },
+    {
+      id: 4,
+      link: "price",
+    },
+    {
+      id: 5,
+      link: "blog",
+    },
+    {
+      id: 3,
+      link: "contact",
+    },
+  ];
 
   return (
     
@@ -69,9 +96,30 @@ const Navbar = () => {
                 </Link> 
               </div>
             </div>
-            <div className="cursor-pointer pr-4  z-10 text-gray-500 md:hidden">
-            <FaTimes size={30} /> : <FaBars size={30} />
-           </div>
+            <div
+        onClick={() => setNav(!nav)}
+        className="cursor-pointer pr-4  z-10 text-gray-500 md:hidden"
+      >
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+      </div>
+
+      {
+        nav && (
+            <div className="naviii flex flex-col justify-start  items-center absolute top-24 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+            {
+                links.map(({ id, link }) => (
+                  <div className='flex  text-black text-lg w-full h-full  bg-white'>
+          <p key={id} className="ml-8 cursor-pointer capitalize  ">
+            <Link onClick={()=>setNav(!nav)} to={link} smooth duration="500">{link}</Link>
+
+            
+            </p>
+          </div>
+           )) }
+    
+          </div>
+        )
+      }
             </div>
             </div>
     </nav>
