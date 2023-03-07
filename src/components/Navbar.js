@@ -18,11 +18,11 @@ const Navbar = () => {
     },
     {
       id: 3,
-      link: "services",
+      link: "service",
     },
     {
       id: 4,
-      link: "portfolio",
+      link: "service",
     },
     {
       id: 5,
