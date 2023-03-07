@@ -190,6 +190,7 @@ form{
   align-items: center;
   width: 100%;
   max-width: 100%;
+  margin-top: 1rem;
 }
 .contact-form input, textarea{
   padding: 6px 12px;
