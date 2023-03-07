@@ -11,8 +11,8 @@ const About = () => {
   return (
     <div>
         <section className="home-section2">
-          <div className="ml-5 mr-5 text-lg lg:flex lg:justify-center lg:items-center sm:flex sm:justify-center">
-            <h1 className="home-about-tect">About NelsonelTech Solutions</h1>
+          <div className="ml-5 mr-5 mt-6 text-lg lg:flex lg:justify-center lg:items-center sm:flex sm:justify-center">
+            <h1 className="home-about-tect ">About NelsonelTech Solutions</h1>
           </div>
           <div className=" ml-5 mr-5 lg:flex lg:justify-center flex-wrap">
             <div className="lg:w-2/5 lg:mr-3 lg:h-full mb-5">
