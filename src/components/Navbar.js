@@ -22,7 +22,7 @@ const Navbar = () => {
     },
     {
       id: 4,
-      link: "service",
+      link: "portfolio",
     },
     {
       id: 5,
