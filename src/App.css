@@ -215,3 +215,13 @@ form{
   margin: 1rem 0;
   color:#3EC1D1;
 }
+
+
+/* Priceee */
+
+.pricediv1{
+  max-width: 100%;
+  border: 1px solid gray;
+  height:100vh;
+  background-color: red;
+}
