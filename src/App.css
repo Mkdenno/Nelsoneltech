@@ -235,3 +235,25 @@ form{
   height:100vh;
   background-color: red;
 }
+
+/* bloggg */
+.blog-width{
+  width: 90%;
+}
+
+.myblog{
+  background: hsla(0, 0%, 0%, 0.8);
+
+}
+.bloglist{
+  border-top: 1px solid grey;
+  padding: 0.7rem ;
+}
+.bloginput{
+  width: 75%;
+}
+.searchInput{
+  border:1px solid grey ;
+  padding: 0.4rem;
+  margin-bottom: 2rem;
+}
