@@ -8,8 +8,8 @@ import { CiLocationOn } from 'react-icons/ci';
 const Contact = () => {
   return (
     <div>
-      <section className="home-section2">
-        <div className="mt-8 text-lg lg:flex lg:justify-center lg:items-center sm:flex sm:justify-center">
+      <section className="mt-36 home-section2">
+        <div className="mt-12 text-lg lg:flex lg:justify-center lg:items-center sm:flex sm:justify-center">
           <h1 className="home-about-tect ">Contact Us</h1>
         </div>
         <div className="flex justify-around items-center flex-wrap mb-12">

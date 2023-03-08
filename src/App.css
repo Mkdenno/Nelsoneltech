@@ -1,3 +1,7 @@
+.first-home-slider{
+  margin-top: 6.2rem;
+}
+
 /* Homeee */
 .home-slider{
   position: relative;
@@ -135,6 +139,12 @@ max-width: 100%;
 .navbar-container{
   background: hsla(0, 0%, 0%, 0.8);
   color: #444444;
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  top: 0;
+  z-index: 4;
+  
 
 }
 .headerpart1{

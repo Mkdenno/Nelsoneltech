@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-<section className=' m-10'>
+<section className='mt-36 m-10'>
         <div className='ml-5 mr-5 text-lg lg:flex lg:justify-center lg:items-center sm:flex sm:justify-center'>
         <h1 className='home-about-tect'>Our Services</h1>
         </div>
